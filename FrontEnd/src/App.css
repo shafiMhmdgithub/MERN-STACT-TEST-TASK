@@ -1,0 +1,19 @@
+.carousel{
+  width: 1300px;
+  margin-left: 0px;
+}
+.card1{
+  position: absolute;
+  top: 0;
+  transform: translateX(-50);
+  width: 80%;
+  z-index: 1;
+  color: transparent;
+  transform: translateX(-50);
+  margin-top: 330px;
+  margin-left: 20px;
+  opacity: 0.9;
+  background-color: rgba(56, 29, 29, 0.8); /* White with 80% opacity */
+  background-color: #ffffffcc; /* Hex for white with 80% opacity */
+ 
+}

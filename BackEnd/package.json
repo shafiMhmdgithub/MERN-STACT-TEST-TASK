@@ -1,0 +1,38 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ./node_modules/.bin/babel-node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cjs": "^0.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "4.17.1",
+    "express-async-handler": "^1.2.0",
+    "googleapis": "^144.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "paypal-rest-sdk": "^1.8.1",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.25.9",
+    "@babel/node": "^7.25.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.25.9",
+    "nodemon": "^2.0.7"
+  }
+}
